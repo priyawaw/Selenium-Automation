@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="StarAgilePractice.PracticeAssignments.AssgnQ4">
+        <methods>
+          <include name="privacyPolicyRedirectionTest"/>
+          <include name="emptyCompanyNameTest"/>
+          <include name="loginRedirectionTest"/>
+          <include name="verifyElemntsOnPageTest"/>
+          <include name="inValidPasswordTest"/>
+          <include name="openBrowser"/>
+          <include name="setUp"/>
+          <include name="invalidEmailTest"/>
+          <include name="emptyPasswordTest"/>
+          <include name="emptyNameTest"/>
+          <include name="validRegistrationTest"/>
+          <include name="uncheckedTerms"/>
+          <include name="inValidPhoneTest"/>
+          <include name="emptyPhoneTest"/>
+          <include name="tearDown"/>
+          <include name="landingPageRedirectionTest"/>
+          <include name="emptyEmailTest"/>
+          <include name="termsRedirectionTest"/>
+        </methods>
+      </class> <!-- StarAgilePractice.PracticeAssignments.AssgnQ4 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
