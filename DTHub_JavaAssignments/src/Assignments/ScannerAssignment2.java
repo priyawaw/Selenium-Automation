@@ -43,16 +43,16 @@ public class ScannerAssignment2 {
 
 		ScannerAssignment2 SA = new ScannerAssignment2();
 		Scanner s = new Scanner(System.in);
-		int a = s.nextInt();
 		System.out.println("Enter first no");
-		int b = s.nextInt();
+		int a = s.nextInt();
 		System.out.println("Enter second no");
-		int mulResult = SA.mul(10, 2);
-		int sumResult = SA.add(mulResult, 2);
+		int b = s.nextInt();
+		int mulResult = SA.mul(a, b);
+		int sumResult = SA.add(mulResult, 10);
 		int subResult = SA.sub(sumResult, 3);
-		int sumResult1 = SA.add(subResult, 3);
-		SA.div(sumResult1, 3);
-		System.out.println("Result is displayed as mentioned above");
+		int subResult1 = SA.sub(subResult, 5);
+		SA.div(subResult1, 6);
+		System.out.println("Result is displayed as mentioned above " );
 
 	}
 

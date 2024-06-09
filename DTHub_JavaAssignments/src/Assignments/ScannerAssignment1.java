@@ -43,7 +43,9 @@ public class ScannerAssignment1 {
 
 		ScannerAssignment1 SA = new ScannerAssignment1();
 		Scanner s = new Scanner(System.in);
+		System.out.println("Enter first no");
 		int a = s.nextInt();
+		System.out.println("Enter second no");
 		int b = s.nextInt();
 		int mulResult = SA.mul(10, 2);
 		int sumResult = SA.add(mulResult, 2);
